@@ -19,6 +19,7 @@ import SortFilter from './sort_filter';
 import { xtoast } from './message';
 import { cssPrefix } from '../config';
 import { formulas } from '../core/formula';
+import EditorBar from "./editorbar";
 
 /**
  * @desc throttle fn
@@ -894,6 +895,9 @@ export default class Sheet {
     this.print = new Print(data);
     targetEl.children(this.toolbar.el, this.el, this.print.el);
     this.data = data;
+    // editorbar
+    this.editorbar = new EditorBar(this.data,this);
+    targetEl.children(this.editorbar.el, this.el, this.print.el);
     // table
     this.tableEl = h('canvas', `${cssPrefix}-table`);
     // resizer
