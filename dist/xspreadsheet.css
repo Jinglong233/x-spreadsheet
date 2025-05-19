@@ -235,7 +235,7 @@ body {
 .x-spreadsheet-selector .hide-input input {
   padding: 0;
   width: 0;
-  border: none!important;
+  border: none !important;
 }
 .x-spreadsheet-selector .x-spreadsheet-selector-area {
   position: absolute;
@@ -336,7 +336,7 @@ body {
 }
 .x-spreadsheet-item.state,
 .x-spreadsheet-header.state {
-  padding-left: 35px!important;
+  padding-left: 35px !important;
   position: relative;
 }
 .x-spreadsheet-item.state:before,
@@ -368,7 +368,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0!important;
+  opacity: 0 !important;
   outline: 0;
   z-index: -1;
 }
@@ -415,6 +415,52 @@ body {
   text-align: left;
   background: #f5f6f7;
   display: flex;
+}
+.x-spreadsheet-editorbar {
+  border: 1px solid #e0e2e4;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+}
+.x-spreadsheet-editorbar .x-spreadsheet-editorlabel {
+  background: #f5f6f7;
+  border: 0;
+  border-right: 1px solid #e0e2e4;
+  box-sizing: border-box;
+  color: #777;
+  display: inline-block;
+  font-size: 12px;
+  height: 100%;
+  line-height: inherit;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  user-select: none;
+  white-space: nowrap;
+  width: 60px;
+}
+.x-spreadsheet-editorbar .x-spreadsheet-editorbartextarea {
+  border: 1px solid #e0e2e4;
+  background: #fff;
+  border: none;
+  box-sizing: content-box;
+  display: block;
+  font-size: 14px;
+  height: calc(100% - 8px);
+  left: 60px;
+  line-break: anywhere;
+  line-height: 16px;
+  outline: none;
+  overflow: hidden auto;
+  overflow-wrap: break-word;
+  padding: 4px 8px;
+  position: absolute;
+  resize: none;
+  text-decoration-skip-ink: none;
+  top: 0;
+  white-space: pre-wrap;
+  width: calc(100% - 66px);
+  word-break: break-word;
 }
 .x-spreadsheet-bottombar {
   position: relative;
@@ -849,7 +895,7 @@ form fieldset select {
   line-height: 0;
 }
 .x-spreadsheet-icon .x-spreadsheet-icon-img {
-  background-image: url(58eaeb4e52248a5c75936c6f4c33a370.svg);
+  background-image: url(965531986ac901683ddd92a2b6974a73.svg);
   position: absolute;
   width: 262px;
   height: 444px;
