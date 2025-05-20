@@ -53,7 +53,8 @@ export default class EditorBar {
         sheet.on('cell-selected', (cell, ri, ci) => {
             this.currentCell.ci = ci;
             this.currentCell.ri = ri;
-            this.updateFormulaBa()
+            this.label.html(this.getSelectedA1Range(ri, ci));
+            this.updateFormulaBa();
         });
         sheet.on('cell-edited', (text, ri, ci) => {
             this.updateFormulaBa()
