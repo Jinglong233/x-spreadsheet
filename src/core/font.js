@@ -12,6 +12,15 @@ const baseFonts = [
   { key: 'Courier New', title: 'Courier New' },
   { key: 'Verdana', title: 'Verdana' },
   { key: 'Lato', title: 'Lato' },
+  { key: '宋体', title: '宋体' },
+  { key: '黑体', title: '黑体' },
+  { key: '仿宋', title: '仿宋' },
+  { key: '楷体', title: '楷体' },
+  { key: '隶书', title: '隶书' },
+  { key: '华文中宋', title: '华文中宋' },
+  { key: '华文行楷', title: '华文行楷' },
+  { key: '微软雅黑', title: '微软雅黑' },
+  { key: '冬青黑体', title: '冬青黑体' },
 ];
 
 /** default fontSize list
